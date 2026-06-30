@@ -49829,7 +49829,7 @@ s=this.a
 if(s!=null)r.m(0,"Authorization","Bearer "+s)
 return r},
 A4(){return this.T4(!0)},
-Xn(a,b){var s=A.iZ("http://10.27.38.20:8000"+a,0,null)
+Xn(a,b){var s=A.iZ("https://agripulse-backend-zqs2.onrender.com"+a,0,null)
 return s.a1t(0,b==null?null:b.nK(b,new A.a7D(),t.N,t.z))},
 vJ(a){return this.Xn(a,null)},
 ac0(a){var s=a.e,r=a.w,q=A.aVM(A.aUF(s)).fk(0,r).length===0?null:B.cn.Z4(0,A.aVM(A.aUF(s)).fk(0,r),null)
@@ -49850,7 +49850,7 @@ break
 case 4:p=3
 j=o.pop()
 if(A.ab(j) instanceof A.AL)throw j
-else{l=A.aPc("Cannot reach the server at http://10.27.38.20:8000. Make sure the backend is running (uvicorn on port 8000) and the URL in config.dart is correct for this device.",0)
+else{l=A.aPc("Cannot reach the server at https://agripulse-backend-zqs2.onrender.com. Make sure the backend is running (uvicorn on port 8000) and the URL in config.dart is correct for this device.",0)
 throw A.f(l)}s=6
 break
 case 3:s=2
